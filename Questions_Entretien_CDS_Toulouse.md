@@ -13,174 +13,439 @@
 ## I. Questions Générales
 
 ### Parlez-moi de vous.
-"Je suis Med Fadi Abaidi, étudiant ingénieur en génie logiciel à la Faculté des Sciences de Tunis, passionné par le développement d'applications web et desktop avec une forte orientation vers l'expérience utilisateur. J'ai acquis une expérience significative lors de mon stage chez Skillia à Paris, où j'ai développé une plateforme LMS complète avec React.js et TypeScript, en gérant le projet de bout en bout sur huit modules distincts. Je maîtrise React, Next.js, Node.js et TypeScript, et j'ai une appétence particulière pour la création d'interfaces utilisateur créatives et performantes. Ce qui m'attire chez CDS, c'est l'opportunité de contribuer à des solutions innovantes dans l'industrie aérospatiale, un secteur qui me fascine par son exigence technique et son potentiel d'innovation."
+"Je suis Med Fadi Abaidi, étudiant ingénieur en génie logiciel à la Faculté des Sciences de Tunis, passionné par le développement d'applications web et desktop. J'ai acquis une expérience significative lors de mon stage chez Skillia à Paris, où j'ai développé une plateforme LMS complète avec React.js et TypeScript sur huit modules. Je maîtrise React, Next.js, Node.js et TypeScript, et j'ai une appétence particulière pour la création d'interfaces utilisateur créatives. Ce qui m'attire chez CDS, c'est l'opportunité de contribuer à des solutions innovantes dans l'industrie aérospatiale."
 
 ### Pourquoi souhaitez-vous rejoindre Cognitive Design Systems ?
-"CDS m'attire pour plusieurs raisons. D'abord, l'industrie aérospatiale de Toulouse représente un environnement d'innovation unique en Europe. Ensuite, votre mission de développer des solutions CAD automatisées combine créativité et technicité, deux aspects qui me passionnent profondément. J'ai l'habitude de créer des applications from scratch, comme mon projet de plateforme vidéo MTube ou l'application d'intégration Mistral AI, et j'apprécie particulièrement le challenge de transformer des idées en produits fonctionnels. Enfin, travailler dans une équipe de plus de dix développeurs dans un environnement multiculturel correspond parfaitement à ma vision du travail collaboratif et à mes aspirations professionnelles."
+"CDS m'attire pour plusieurs raisons :
+- L'industrie aérospatiale de Toulouse représente un environnement d'innovation unique
+- Votre mission de développer des solutions CAD automatisées combine créativité et technicité
+- J'ai l'habitude de créer des applications from scratch (MTube, Mistral AI)
+- Travailler dans une équipe de 10+ développeurs multiculturelle correspond à ma vision du travail collaboratif"
 
 ### Qu'est-ce qui vous passionne dans le développement d'applications ?
-"Ce qui me passionne le plus, c'est l'aspect créatif du développement et la possibilité d'innover dans l'expérience utilisateur. Dans mon projet d'intégration Mistral AI, j'ai créé un système d'artefacts avec prévisualisation live du code HTML, CSS et JavaScript, en accordant une attention particulière à l'ergonomie avec des panneaux redimensionnables et des animations fluides. Chez OK Studios, j'ai développé quatorze composants personnalisés avec des animations Framer Motion et des micro-interactions GSAP ScrollTrigger. Je crois fermement que la créativité et l'ingéniosité sont essentielles pour créer des solutions qui dépassent les contraintes des processus traditionnels et qui améliorent véritablement la vie des utilisateurs."
+"Ce qui me passionne le plus :
+- L'aspect créatif et la possibilité d'innover dans l'expérience utilisateur
+- Créer des systèmes comme les artefacts avec prévisualisation live (projet Mistral AI)
+- Développer des animations fluides avec Framer Motion et GSAP (OK Studios)
+- Transformer des idées en produits fonctionnels qui améliorent la vie des utilisateurs"
 
 ### Comment gérez-vous la pression et les délais serrés ?
-"Je gère la pression en organisant mon travail de manière efficace et en établissant des priorités claires. Chez Skillia, nous travaillions avec des sprints courts et des deadlines serrées pour livrer plus de trente fonctionnalités. J'ai appris à utiliser la méthodologie Agile Scrum avec des daily stand-ups quotidiens pour suivre l'avancement et identifier rapidement les blocages. Je communique régulièrement avec l'équipe pour trouver des solutions ensemble, et j'utilise des outils comme Monday ou GitHub Projects pour visualiser l'avancement des tâches. Ma polyvalence me permet également de basculer entre plusieurs projets simultanément tout en maintenant la qualité du code et en restant calme même dans les situations stressantes."
+"Je gère la pression efficacement :
+- Organisation du travail avec des priorités claires
+- Communication régulière avec l'équipe pour identifier les blocages
+- Utilisation d'outils comme GitHub Projects pour visualiser l'avancement
+- Polyvalence pour basculer entre plusieurs projets simultanément"
 
 ### Décrivez une situation où vous avez géré un projet de bout en bout.
-"Pour la plateforme vidéo MTube, j'ai géré le projet du début à la fin en assumant toutes les responsabilités techniques. J'ai commencé par la conception de l'architecture microservices sur Google Cloud Platform, puis j'ai développé le frontend avec Next.js et Firebase Auth pour l'authentification. Pour le backend, j'ai mis en place Firebase Functions pour l'API et Cloud Run pour le service de traitement vidéo avec FFmpeg. J'ai également configuré l'infrastructure cloud avec les buckets Google Cloud Storage, Pub/Sub pour la communication asynchrone, et Firestore pour la persistance des métadonnées. Cette expérience m'a appris à avoir une vision globale d'un projet et à prendre des décisions architecturales impactantes tout en gérant les contraintes techniques et temporelles."
+"Pour la plateforme vidéo MTube, j'ai géré le projet complet :
+- **Conception** : Architecture microservices sur Google Cloud Platform
+- **Frontend** : Next.js avec Firebase Auth
+- **Backend** : Firebase Functions + Cloud Run pour le traitement vidéo FFmpeg
+- **Infrastructure** : Cloud Storage, Pub/Sub, Firestore
+- Cette expérience m'a appris à prendre des décisions architecturales impactantes"
 
 ---
 
 ## II. Questions Techniques - Stack CDS
 
 ### Expliquez votre expérience avec React et TypeScript.
-"J'utilise React et TypeScript quotidiennement depuis mes différentes expériences professionnelles. Chez Skillia, j'ai développé une interface React.js avec TypeScript pour quatre types d'utilisateurs différents, en créant une architecture basée sur les hooks personnalisés et en utilisant Context API pour la gestion d'état. Dans mon application Mistral AI, j'ai travaillé avec Next.js 15 et son App Router, en créant des custom hooks comme useChatConversation, useArtifactOperations et useResizable pour encapsuler la logique réutilisable. J'ai également utilisé des composants Chakra UI et Tailwind CSS pour l'interface, ainsi qu'un éditeur de code avec CodeMirror. TypeScript m'a permis de détecter les erreurs de type dès la compilation et de créer des interfaces robustes pour les APIs, ce qui a considérablement amélioré la maintenabilité du code."
+"J'utilise React et TypeScript quotidiennement :
+
+**Chez Skillia (plateforme LMS) :**
+- Interface React.js avec TypeScript pour 4 types d'utilisateurs
+- Architecture basée sur les hooks personnalisés
+- Gestion d'état avec Context API
+
+**Application Mistral AI :**
+- Next.js 15 avec App Router
+- Custom hooks : `useChatConversation`, `useArtifactOperations`, `useResizable`
+- Composants Chakra UI et Tailwind CSS
+- Éditeur de code avec CodeMirror"
 
 ### Avez-vous de l'expérience avec Node.js et les applications Electron ?
-"Oui, j'ai une solide expérience avec Node.js à travers plusieurs projets. Chez Skillia, j'ai développé un backend NestJS complet avec plus de vingt endpoints RESTful, en utilisant TypeORM pour l'ORM avec PostgreSQL, l'authentification JWT et des guards RBAC pour la sécurité. J'ai également implémenté un système de cache Redis ainsi que la pagination et le lazy loading pour optimiser les performances. Pour la plateforme MTube, j'ai créé des Firebase Functions pour la génération d'URLs signées et les triggers Cloud Pub/Sub. Concernant Electron, je n'ai pas encore d'expérience directe avec ce framework, mais la combinaison de mes compétences en React, TypeScript et Node.js me permettrait de m'adapter rapidement. Electron utilise les mêmes technologies web pour créer des applications desktop, ce qui représente un prolongement naturel de mon expertise actuelle."
+"**Node.js - Expérience solide :**
+- Backend NestJS chez Skillia : 20+ endpoints RESTful, TypeORM, PostgreSQL, JWT, RBAC
+- Cache Redis, pagination et lazy loading
+- Firebase Functions pour MTube
+
+**Electron :**
+- Pas d'expérience directe encore
+- Bases solides en React + Node.js pour adaptation rapide
+- Electron utilise les mêmes technologies web → prolongement naturel de mon expertise"
 
 ### Qu'est-ce que Three.js et avez-vous de l'expérience avec la 3D ?
-"Three.js est une bibliothèque JavaScript qui permet de créer et d'afficher des graphiques 3D dans le navigateur en utilisant WebGL. Bien que je n'aie pas encore travaillé directement avec Three.js, j'ai une base solide pour l'aborder efficacement. Je comprends les concepts fondamentaux de la 3D comme les matrices de transformation, les systèmes de coordonnées et les principes de rendu. Ma maîtrise avancée de JavaScript et TypeScript me fournit les compétences nécessaires pour travailler avec Three.js. De plus, j'utilise Python pour l'algorithmique et j'ai atteint le rang Specialist sur Codeforces, ce qui témoigne de ma capacité à résoudre des problèmes complexes. Je suis très motivé pour apprendre Three.js et contribuer aux solutions CAD de CDS, car la R&D sur les algorithmes 3D et la modification de géométrie m'intéresse particulièrement."
+"Three.js est une bibliothèque JavaScript pour créer des graphiques 3D dans le navigateur via WebGL.
+
+**Mes bases pour l'aborder :**
+- Compréhension des concepts 3D : matrices de transformation, systèmes de coordonnées
+- Maîtrise avancée de JavaScript/TypeScript
+- Python pour l'algorithmique (Codeforces Specialist)
+- Très motivé pour apprendre et contribuer aux solutions CAD de CDS"
 
 ### Parlez-moi de votre expérience avec Python.
-"Python est l'un de mes langages principaux que j'utilise régulièrement pour l'algorithmique et la résolution de problèmes. J'ai atteint le rang Specialist sur Codeforces, ce qui démontre ma capacité à concevoir des algorithmes efficaces et à résoudre des problèmes complexes. J'ai également de l'expérience avec des bibliothèques comme NumPy et Pandas pour le traitement de données. Ma certification Oracle Certified Foundations Associate inclut également des compétences en Python. Dans le contexte de CDS, je suis enthousiaste à l'idée d'approfondir mes compétences en Python pour la R&D sur les algorithmes 3D et la modification géométrique. La combinaison de Python pour les calculs et Three.js pour la visualisation dans le domaine du CAD automatisé est un domaine qui me passionne."
+"Python est l'un de mes langages principaux :
+- **Algorithmique** : Codeforces Specialist, résolution de problèmes complexes
+- **Data Science** : NumPy, Pandas pour le traitement de données
+- **Certification** : Oracle Certified Foundations Associate
+- Prêt à approfondir pour la R&D sur les algorithmes 3D et modification géométrique"
 
 ### Comment créez-vous une webapp from scratch ?
-"Lorsque je crée une webapp de zéro, je commence toujours par une phase de conception où j'analyse les besoins utilisateur et je crée des wireframes et maquettes avec Figma pour valider l'approche visuelle. Ensuite, je choisis l'architecture technique adaptée au projet. Pour le setup, j'utilise généralement des outils comme Create Next App avec TypeScript ou Vite selon les besoins. Je structure ensuite le projet avec des dossiers distincts pour les composants réutilisables, les hooks personnalisés, les pages ou routes de l'application, les services pour les appels API, les types et interfaces TypeScript, et les utilitaires. Je développe de manière itérative en créant les composants UI avec Tailwind ou Chakra UI, en écrivant des tests avec Jest et Playwright, en configurant le CI/CD avec GitHub Actions, et en préparant le déploiement avec Docker. Cette approche méthodique me permet de livrer des applications robustes et maintenables."
+"**1. Phase de conception :**
+- Analyse des besoins utilisateur
+- Wireframes et maquettes avec Figma
+
+**2. Setup du projet :**
+- Create Next App avec TypeScript ou Vite
+
+**3. Structure :**
+```
+/src
+  /components    - Composants réutilisables
+  /hooks         - Custom hooks
+  /pages         - Routes
+  /services      - Appels API
+  /types         - Interfaces TypeScript
+```
+
+**4. Développement itératif :**
+- Composants UI avec Tailwind/Chakra
+- Tests avec Jest/Playwright
+- CI/CD avec GitHub Actions
+- Déploiement Docker"
 
 ### Comment gérez-vous les connexions avec des solutions tierces ?
-"J'ai une expérience approfondie avec l'intégration de multiples APIs et services externes. J'ai intégré l'API Mistral AI pour le chat streaming avec function calling et embeddings, Stripe pour le checkout, les webhooks et la gestion des abonnements, Firebase pour l'authentification, Firestore et Cloud Storage, ainsi que l'API GitHub pour la collaboration étudiant-mentor dans le projet Skillia. J'ai également travaillé avec les services Google Cloud comme Pub/Sub, Cloud Run et GCS. Mon approche pour intégrer une solution tierce consiste d'abord à étudier en profondeur la documentation de l'API, puis à créer un service wrapper en TypeScript pour encapsuler les appels. Je mets ensuite en place une gestion des erreurs centralisée, j'écris des tests d'intégration pour valider le comportement, et je configure le monitoring et le logging pour suivre les performances en production."
+"**Intégrations réalisées :**
+- Mistral AI API : chat streaming, function calling, embeddings
+- Stripe : checkout, webhooks, abonnements
+- Firebase : Auth, Firestore, Cloud Storage
+- GitHub API : collaboration étudiant-mentor (Skillia)
+- Google Cloud : Pub/Sub, Cloud Run, GCS
+
+**Approche :**
+1. Étude approfondie de la documentation API
+2. Création d'un service wrapper TypeScript
+3. Gestion des erreurs centralisée
+4. Tests d'intégration
+5. Monitoring et logging"
 
 ### Comment concevez-vous et développez-vous des bases de données ?
-"J'ai travaillé avec différents types de bases de données selon les besoins des projets. Pour les bases SQL comme PostgreSQL et MySQL, j'utilise la modélisation relationnelle avec Spring Data JPA côté backend, et j'ai de l'expérience avec les migrations via TypeORM dans NestJS. Je porte une attention particulière à l'optimisation des requêtes et à l'indexation pour garantir les performances. Pour les bases NoSQL comme MongoDB et Firestore, je travaille avec des schémas flexibles en utilisant Prisma ORM, et je conçois des documents adaptés aux applications temps réel. Dans le Système de Surveillance d'Examens par exemple, j'ai conçu un modèle de données avec des entités comme Enseignant, Surveillance, Disponibilité, Session, Matière et Salle, avec des relations complexes et des contraintes d'intégrité. J'ai également implémenté la validation des conflits de planning directement au niveau de la base de données pour garantir la cohérence des données."
+"**SQL (PostgreSQL, MySQL) :**
+- Modélisation relationnelle avec Spring Data JPA
+- Migrations via TypeORM (NestJS)
+- Optimisation des requêtes, indexation
+
+**NoSQL (MongoDB, Firestore) :**
+- Schémas flexibles avec Prisma ORM
+- Documents adaptés aux applications temps réel
+
+**Exemple (Système de Surveillance) :**
+- Entités : Enseignant, Surveillance, Disponibilité, Session, Matière, Salle
+- Relations complexes avec contraintes d'intégrité
+- Validation des conflits de planning au niveau base de données"
 
 ---
 
 ## III. Questions sur l'Expérience Utilisateur (UX)
 
 ### Comment accordez-vous une attention particulière à l'expérience utilisateur ?
-"L'expérience utilisateur est au cœur de mon approche de développement. Chez OK Studios, j'ai mis en œuvre un design mobile-first responsive avec du lazy loading des images via Next.js Image pour optimiser les performances. J'ai créé des animations avec Framer Motion pour les transitions entre les pages et des micro-interactions avec GSAP ScrollTrigger pour enrichir l'expérience de navigation. J'ai également développé des layouts bento grid et des effets personnalisés pour créer une identité visuelle distinctive. Dans l'application Mistral AI, j'ai conçu une interface split-pane redimensionnable grâce à un hook useResizable personnalisé, avec du streaming en temps réel accompagné d'un feedback visuel clair. J'ai implémenté des error boundaries pour une gestion gracieuse des erreurs et une prévisualisation live du code généré. Je crois profondément que chaque interaction doit être intuitive et que ce sont les détails qui font la différence entre une bonne et une excellente expérience utilisateur."
+"**Chez OK Studios :**
+- Design mobile-first responsive
+- Lazy loading des images avec Next.js Image
+- Animations Framer Motion pour les transitions
+- Micro-interactions GSAP ScrollTrigger
+- Layouts bento grid et effets personnalisés
+
+**Application Mistral AI :**
+- Interface split-pane redimensionnable (hook `useResizable`)
+- Streaming temps réel avec feedback visuel
+- Error boundaries pour gestion gracieuse des erreurs
+- Prévisualisation live du code généré"
 
 ### Comment gérez-vous le design et le prototypage ?
-"J'utilise Figma comme outil principal pour le design et le prototypage de mes projets. Je crée des maquettes et des wireframes pour valider les concepts avant le développement, et je mets en place des design systems avec des composants réutilisables et des tokens de couleurs pour garantir la cohérence visuelle. Je partage régulièrement mes designs avec l'équipe pour recueillir du feedback et itérer rapidement. En tant que Media Manager au Google Developer Group on Campus de la FST, j'ai développé des compétences complémentaires en design avec Adobe Photoshop et Figma. Cette double casquette de développeur et designer me permet de créer des interfaces cohérentes et esthétiques, tout en comprenant les contraintes techniques de l'implémentation."
+"- **Figma** : Maquettes, wireframes, design systems
+- **Adobe Photoshop** : Retouche et création graphique
+- Double casquette développeur/designer (Media Manager au GDG on Campus FST)
+- Création d'interfaces cohérentes et esthétiques"
 
 ---
 
-## IV. Questions sur la Méthodologie Agile
+## IV. Méthodologie de Travail
 
-### Comment avez-vous appliqué Agile Scrum dans vos projets ?
-"Chez Skillia, nous utilisions la méthodologie Agile Scrum de manière rigoureuse tout au long du projet. Nous travaillions avec des sprints de deux semaines avec des objectifs clairs définis lors du sprint planning. Chaque matin, nous participions à des daily stand-ups de quinze minutes pour partager notre avancement et identifier les blocages éventuels. J'ai contribué activement à la planification des sprints et à l'estimation des tâches en story points. À la fin de chaque sprint, nous organisions une sprint review pour démontrer les fonctionnalités livrées aux parties prenantes, suivie d'une retrospective pour améliorer continuellement nos processus. Cette méthodologie nous a permis de livrer 93% des spécifications fonctionnelles, soit trente features sur trente-deux prévues, tout en restant flexibles face aux changements de priorités qui surviennent inévitablement dans un projet de cette envergure."
-
-### Comment gérez-vous plusieurs projets et tâches simultanément ?
-"Ma polyvalence et mon sens de l'organisation me permettent de jongler efficacement entre plusieurs projets. J'utilise des outils comme GitHub Projects avec des tableaux Kanban pour le suivi des tâches, ainsi que Monday ou Jira pour la planification et la priorisation à plus long terme. Je travaille avec des branches Git isolées pour chaque fonctionnalité, ce qui me permet de basculer facilement d'un projet à l'autre sans risque de confusion. Mon approche consiste à prioriser les tâches par valeur business et urgence, à utiliser le time-boxing pour éviter le scope creep, et à maintenir une documentation claire pour faciliter le context-switching. Je communique également de manière proactive sur les blocages pour éviter que les retards sur un projet n'impactent les autres."
+### Comment travaillez-vous en équipe ?
+"- Daily stand-ups et communication Slack
+- Code reviews via pull requests avec feedback constructif
+- Pair programming pour les features complexes
+- Documentation technique pour le partage de connaissances
+- Expérience chez Skillia avec équipe internationale"
 
 ---
 
 ## V. Questions Techniques Approfondies
 
 ### Expliquez l'architecture d'une application React moderne.
-"Dans mes projets React, j'adopte une architecture modulaire bien structurée. Je sépare les composants en plusieurs catégories : les composants UI de base comme les boutons, inputs et modals qui sont réutilisables dans toute l'application, les composants features qui encapsulent la logique métier spécifique, et les composants layouts qui définissent la structure des pages. Je crée des hooks personnalisés pour encapsuler la logique réutilisable, comme useChatConversation ou useArtifactOperations dans mon projet Mistral AI. J'utilise les React Context pour les providers qui gèrent l'état global, et je sépare les services pour les appels API de la logique de présentation. Les types TypeScript sont centralisés dans un dossier dédié, et les utilitaires sont regroupés séparément. J'applique des patterns comme la composition pour créer des composants petits et composables, les custom hooks pour l'encapsulation de la logique, et les error boundaries pour une gestion gracieuse des erreurs en production."
+"```
+/src
+  /components
+    /ui           - Composants de base (Button, Input, Modal)
+    /features     - Composants métier
+    /layouts      - Layouts de page
+  /hooks          - Custom hooks réutilisables
+  /context        - Providers React Context
+  /services       - API calls
+  /types          - Interfaces TypeScript
+  /utils          - Fonctions utilitaires
+```
+
+**Patterns utilisés :**
+- Composition : composants petits et composables
+- Custom hooks : encapsulation de la logique
+- Error boundaries : gestion gracieuse des erreurs"
 
 ### Comment gérez-vous l'état dans une application React ?
-"Je choisis la solution de gestion d'état adaptée à la complexité de chaque situation. Pour l'état local des composants isolés et les formulaires simples, j'utilise useState qui est suffisant et performant. Pour l'état partagé entre plusieurs composants, comme le thème, l'authentification ou les préférences utilisateur, j'utilise Context API. Dans mon projet Mistral AI par exemple, j'ai créé un ChatStateContext pour gérer l'état global des conversations, et un hook useChatConversation qui utilise useState pour les messages et useCallback pour les fonctions de mise à jour afin d'optimiser les performances. Pour des applications plus complexes avec beaucoup d'état global et des interactions complexes entre les différentes parties de l'application, j'envisagerais d'utiliser Zustand ou Redux Toolkit qui offrent des outils plus puissants pour la gestion d'état à grande échelle."
+"**État local (useState)** : Composants isolés, formulaires simples
+
+**Context API** : État partagé (thème, authentification, préférences)
+
+**Exemple Mistral AI :**
+```typescript
+const ChatStateContext = createContext<ChatState>(null);
+
+const useChatConversation = () => {
+  const [messages, setMessages] = useState<Message[]>([]);
+  const addMessage = useCallback((msg) => {
+    setMessages(prev => [...prev, msg]);
+  }, []);
+  return { messages, addMessage };
+};
+```
+
+**Zustand/Redux Toolkit** : Applications complexes avec beaucoup d'état global"
 
 ### Comment travaillez-vous avec Git et GitHub ?
-"Git est au cœur de mon workflow quotidien. Je commence par créer une branche feature pour chaque nouvelle fonctionnalité ou correction de bug, en utilisant une convention de nommage claire. Je fais des commits atomiques avec des messages descriptifs qui expliquent le pourquoi des changements plutôt que simplement le quoi. Une fois la fonctionnalité terminée, je pousse la branche et crée une Pull Request pour que les autres développeurs puissent examiner les modifications. Le code review est une étape essentielle qui permet d'améliorer la qualité du code et de partager les connaissances au sein de l'équipe. J'ai également de l'expérience avec GitHub Actions pour le CI/CD, où je configure des tests automatiques sur chaque PR, du linting et du formatage avec ESLint et Prettier, ainsi que le build et le déploiement automatisés. J'ai d'ailleurs obtenu la certification GitHub Actions GH-200 qui atteste de ma maîtrise de ces outils."
+"**Workflow :**
+1. Branche feature pour chaque fonctionnalité
+2. Commits atomiques avec messages descriptifs
+3. Pull Request pour code review
+4. Merge après validation
+
+**CI/CD avec GitHub Actions :**
+- Tests automatiques sur chaque PR
+- Linting et formatage (ESLint, Prettier)
+- Build et déploiement automatisés
+- **Certification** : GitHub Actions (GH-200)"
 
 ### Comment utilisez-vous Docker dans vos projets ?
-"Docker est un outil essentiel dans mes déploiements que j'utilise pour garantir la reproductibilité des environnements. Pour le service de traitement vidéo de MTube par exemple, j'ai créé un Dockerfile qui part d'une image Node.js 18, installe FFmpeg pour le transcodage, copie les dépendances et le code source, puis définit la commande de démarrage. J'utilise Docker pour créer des environnements de développement reproductibles qui fonctionnent de la même manière sur toutes les machines de l'équipe. Je déploie mes containers sur Cloud Run de Google Cloud Platform, et j'ai également de l'expérience avec l'orchestration via Kubernetes pour les déploiements plus complexes nécessitant de la haute disponibilité. Docker s'intègre parfaitement dans mes pipelines CI/CD où les images sont construites, testées et déployées automatiquement."
+"**Exemple (Service traitement vidéo MTube) :**
+```dockerfile
+FROM node:18
+WORKDIR /app
+RUN apt-get update && apt-get install -y ffmpeg
+COPY package*.json ./
+RUN npm install
+COPY . .
+CMD ["npm", "start"]
+```
+
+**Utilisations :**
+- Environnements de développement reproductibles
+- Déploiement sur Cloud Run (GCP)
+- Orchestration avec Kubernetes
+- Intégration dans pipelines CI/CD"
 
 ---
 
 ## VI. Questions Comportementales
 
-### Comment travaillez-vous en équipe ?
-"J'apprécie particulièrement le travail collaboratif et j'ai développé mes compétences dans ce domaine à travers plusieurs expériences. Chez Skillia, je travaillais avec une équipe internationale comprenant des développeurs frontend et backend répartis sur différents fuseaux horaires. Nous communiquions via les daily stand-ups quotidiens et Slack pour les échanges rapides. Je participais activement aux code reviews via les pull requests, en donnant du feedback constructif et en apprenant des suggestions de mes collègues. Pour les features complexes, nous pratiquions le pair programming qui permet de résoudre les problèmes plus rapidement et de partager les connaissances. Je maintiens également une documentation technique à jour pour faciliter l'onboarding des nouveaux membres et le partage des connaissances. En tant que Media Manager au GDG on Campus de la FST, j'ai développé ma capacité à collaborer avec différentes fonctions comme le design, le marketing et la tech. Je suis à l'écoute, je suggère des idées nouvelles, et j'aide mes collègues quand ils rencontrent des difficultés."
-
 ### Comment proposez-vous de nouvelles idées ?
-"Je crois qu'il faut penser en dehors des sentiers battus pour innover et apporter de la valeur. Chez Skillia par exemple, j'ai proposé d'intégrer GitHub directement dans la plateforme LMS pour permettre la collaboration entre étudiants et mentors sur le code. Cette idée a été retenue par l'équipe et implémentée dans le produit final. Mon approche pour proposer des idées consiste d'abord à identifier un problème concret ou une opportunité d'amélioration, puis à rechercher des solutions existantes et à les adapter au contexte spécifique du projet. Je propose ensuite un POC rapide pour démontrer la faisabilité technique, et je présente l'idée avec des arguments concrets sur les bénéfices en termes d'expérience utilisateur, de performance ou de maintenabilité. Cette approche factuelle permet de convaincre plus facilement les parties prenantes."
+"**Exemple chez Skillia :**
+J'ai proposé d'intégrer GitHub directement dans la plateforme LMS pour la collaboration étudiant-mentor. Idée retenue et implémentée.
+
+**Mon approche :**
+1. Identifier un problème ou opportunité d'amélioration
+2. Rechercher des solutions existantes
+3. Proposer un POC rapide
+4. Présenter avec arguments concrets (UX, performance, maintenabilité)"
 
 ### Comment vous adaptez-vous à de nouvelles technologies ?
-"J'ai une forte capacité d'apprentissage et d'adaptation que j'ai démontrée à plusieurs reprises. J'ai appris et implémenté le standard SCORM 1.2/2004 en quelques semaines chez Skillia, un standard complexe avec de nombreuses spécifications pour le tracking des cours e-learning. J'ai également réalisé une intégration complète de l'API Mistral AI avec streaming et function calling, ainsi qu'une architecture cloud-native avec Firebase et GCP pour la plateforme MTube. Ma méthode d'apprentissage consiste d'abord à lire la documentation officielle pour comprendre les concepts fondamentaux, puis à suivre des tutoriels pratiques pour voir les cas d'usage concrets. Je crée ensuite un projet minimal pour expérimenter et me confronter aux problèmes réels, et j'itère en approfondissant selon les besoins du projet. Pour Three.js et Electron que vous utilisez chez CDS, je suis confiant dans ma capacité à monter en compétence rapidement grâce à cette approche éprouvée."
+"**Exemples récents :**
+- SCORM 1.2/2004 : Appris et implémenté en quelques semaines
+- Mistral AI API : Intégration complète avec streaming et function calling
+- Firebase/GCP : Architecture cloud-native pour MTube
+
+**Ma méthode :**
+1. Lire la documentation officielle
+2. Suivre des tutoriels pratiques
+3. Créer un projet minimal pour expérimenter
+4. Itérer et approfondir selon les besoins"
 
 ---
 
 ## VII. Questions Spécifiques à CDS
 
 ### Pourquoi l'industrie aérospatiale vous intéresse-t-elle ?
-"L'aérospatiale représente pour moi le summum de l'innovation technologique et de l'excellence en ingénierie. Toulouse étant le cœur de cette industrie en Europe avec la présence d'Airbus et de nombreuses entreprises du secteur, rejoindre CDS serait une opportunité unique de contribuer à des solutions qui ont un impact réel sur la conception de systèmes complexes. Le challenge technique de développer des solutions CAD automatisées, combinant visualisation 3D, algorithmes géométriques et interfaces utilisateur intuitives, correspond parfaitement à mes aspirations professionnelles. Je suis particulièrement attiré par l'idée de créer des outils qui permettent aux ingénieurs de concevoir plus efficacement les aéronefs de demain."
+"- L'aérospatiale représente le summum de l'innovation technologique
+- Toulouse est le cœur de cette industrie en Europe
+- Le challenge de développer des solutions CAD automatisées combine visualisation 3D, algorithmes géométriques et interfaces intuitives
+- Créer des outils pour les ingénieurs qui conçoivent les aéronefs de demain"
 
 ### Comment aborderiez-vous le développement d'une application Electron chez CDS ?
-"Pour développer une application Electron, je structurerais le projet en séparant clairement le process principal écrit en Node.js, qui gère la communication inter-process et les services d'accès aux fichiers, du process de rendu écrit en React et TypeScript, qui contient les composants UI et les hooks de logique. Je créerais également un dossier partagé pour les types et utilitaires communs aux deux processes. En termes de considérations techniques, je porterais une attention particulière à la sécurité en utilisant le context isolation et les preload scripts pour éviter les vulnérabilités. Pour les performances, j'utiliserais le lazy loading et des workers pour les calculs lourds afin de ne pas bloquer l'interface utilisateur. Je m'assurerais que l'application offre une expérience native avec des menus et notifications système intégrés. Enfin, je configurerais un système d'auto-updater pour faciliter les mises à jour auprès des utilisateurs."
+"**Architecture :**
+- **Main process (Node.js)** : Communication inter-process, accès fichiers
+- **Renderer process (React/TypeScript)** : Composants UI, hooks
+- **Shared** : Types et utilitaires communs
+
+**Considérations techniques :**
+- Sécurité : context isolation, preload scripts
+- Performance : lazy loading, workers pour calculs lourds
+- UX : menus et notifications système natifs
+- Updates : auto-updater pour mises à jour"
 
 ### Comment contribueriez-vous à la R&D sur les algorithmes 3D en Python ?
-"Pour contribuer à la R&D 3D en Python, je m'appuierais sur mes compétences en algorithmique avancée, attestées par mon rang Specialist sur Codeforces, ma maîtrise de Python pour le calcul numérique, et ma compréhension des mathématiques 3D incluant les matrices, vecteurs et transformations. Mon approche consisterait d'abord à étudier les bibliothèques existantes comme NumPy, SciPy et PyMesh pour comprendre les patterns établis dans le domaine. Je me formerais ensuite aux algorithmes CAD fondamentaux comme la représentation des surfaces, les opérations booléennes sur les volumes, et les algorithmes de maillage. Je prototyperais des solutions en Python pour valider les concepts avant de les intégrer avec Three.js pour la visualisation côté client. Je suis très motivé pour apprendre et contribuer à ce domaine passionnant qui combine mathématiques, algorithmique et visualisation."
+"**Compétences applicables :**
+- Algorithmique avancée (Codeforces Specialist)
+- Python pour le calcul numérique
+- Mathématiques 3D : matrices, vecteurs, transformations
+
+**Approche :**
+1. Étudier NumPy, SciPy, PyMesh
+2. Apprendre les algorithmes CAD fondamentaux
+3. Prototyper en Python
+4. Intégrer avec Three.js pour la visualisation"
 
 ---
 
 ## VIII. Défis Techniques et Solutions par Projet
 
-### Décrivez le défi le plus difficile que vous avez rencontré sur chaque projet.
+### Plateforme LMS Skillia (Knodo) - Implémentation du standard SCORM
 
-**Plateforme LMS Skillia (Knodo) - Implémentation du standard SCORM**
+**Défi :** Implémenter un lecteur conforme aux standards SCORM 1.2 et 2004, avec des centaines de spécifications techniques pour le tracking e-learning.
 
-"Le défi le plus difficile chez Skillia a été l'implémentation du lecteur de cours conforme aux standards SCORM 1.2 et SCORM 2004. SCORM est un standard extrêmement complexe utilisé dans l'industrie du e-learning, avec des centaines de spécifications techniques pour le tracking de la progression des apprenants, la communication entre le contenu et le LMS, et la persistance des données de session. La difficulté principale résidait dans le fait que chaque package SCORM peut avoir un comportement différent selon son implémentation, et que les erreurs de conformité sont souvent silencieuses. Pour résoudre ce problème, j'ai d'abord étudié en profondeur la documentation officielle ADL et analysé le code source de lecteurs SCORM open-source existants. J'ai ensuite implémenté progressivement l'API SCORM en commençant par les fonctions de base comme LMSInitialize et LMSGetValue, puis en ajoutant le support des données complexes comme les objectifs et les interactions. J'ai créé une suite de tests avec des packages SCORM de référence pour valider chaque fonctionnalité. Le résultat final est un lecteur compatible avec les deux versions du standard, intégré avec notre système de tracking de progression qui permet aux mentors de suivre l'avancement de leurs apprenants en temps réel."
+**Solution :**
+- Étude approfondie de la documentation officielle ADL
+- Analyse de lecteurs SCORM open-source existants
+- Implémentation progressive de l'API (LMSInitialize, LMSGetValue, etc.)
+- Suite de tests avec packages SCORM de référence
+- **Résultat** : Lecteur compatible SCORM 1.2/2004 intégré au système de tracking
 
-**Site vitrine OK Studios - Performance des animations complexes**
+---
 
-"Le défi principal chez OK Studios était de maintenir des performances fluides à 60 FPS tout en intégrant de nombreuses animations complexes avec Framer Motion et des micro-interactions GSAP ScrollTrigger. Sur les appareils mobiles moins puissants, les animations causaient des saccades et une consommation excessive de batterie, ce qui dégradait significativement l'expérience utilisateur. Pour résoudre ce problème, j'ai d'abord utilisé les outils de profiling de Chrome DevTools pour identifier les animations les plus coûteuses en ressources. J'ai ensuite optimisé chaque animation en utilisant exclusivement les propriétés CSS qui peuvent être accélérées par le GPU, à savoir transform et opacity, plutôt que des propriétés qui déclenchent des reflows comme width ou margin. J'ai implémenté le lazy loading des images avec Next.js Image pour réduire le poids initial de la page, et j'ai ajouté des media queries pour désactiver ou simplifier certaines animations sur les appareils à faible puissance. J'ai également utilisé l'Intersection Observer API pour ne déclencher les animations ScrollTrigger que lorsque les éléments entrent dans le viewport, ce qui évite des calculs inutiles. Le résultat est un site qui maintient 60 FPS même sur des smartphones d'entrée de gamme, avec un score Lighthouse Performance supérieur à 90."
+### Site vitrine OK Studios - Performance des animations complexes
 
-**Système de Surveillance d'Examens - Gestion des conflits en temps réel**
+**Défi :** Maintenir 60 FPS avec animations Framer Motion et GSAP ScrollTrigger sur appareils mobiles.
 
-"Le défi technique majeur de ce projet était la gestion des conflits d'assignation des enseignants aux surveillances d'examens. Dans un scénario où plusieurs administrateurs assignent simultanément des enseignants aux mêmes créneaux horaires, des conflits pouvaient survenir car deux enseignants risquaient d'être assignés au même endroit au même moment, ou un même enseignant à deux salles différentes. La complexité venait du fait que ces opérations devaient être atomiques et que les utilisateurs devaient être notifiés instantanément des conflits. Pour résoudre ce problème, j'ai implémenté une solution en trois parties. Premièrement, côté backend Spring Boot, j'ai créé une méthode de validation qui vérifie toutes les contraintes avant chaque assignation, en utilisant l'annotation @Transactional pour garantir l'atomicité des opérations et éviter les race conditions. Deuxièmement, j'ai mis en place un système de notifications WebSocket avec STOMP qui envoie des alertes instantanées à tous les utilisateurs concernés lorsqu'une assignation est effectuée ou qu'un conflit est détecté. Troisièmement, côté frontend Angular, j'ai implémenté un service de notifications avec reconnexion automatique et des queues user-specific pour que chaque administrateur reçoive uniquement les notifications pertinentes pour son périmètre. Cette solution a complètement éliminé les conflits en production tout en offrant une expérience utilisateur réactive où les changements sont visibles instantanément sur tous les écrans."
+**Solution :**
+- Profiling avec Chrome DevTools
+- Utilisation exclusive des propriétés GPU (transform, opacity)
+- Lazy loading des images avec Next.js Image
+- Intersection Observer API pour déclencher animations au viewport
+- Media queries pour simplifier animations sur appareils faibles
+- **Résultat** : 60 FPS sur smartphones, score Lighthouse > 90
 
-**Application Chat Mistral AI - Streaming temps réel avec système d'artefacts**
+---
 
-"Le défi le plus complexe de ce projet était de créer un système d'artefacts qui permet de générer du code en temps réel avec prévisualisation live, tout en gérant le streaming des réponses de l'API Mistral AI. La difficulté résidait dans le fait que les artefacts, comme du code HTML/CSS/JS, sont générés progressivement token par token pendant le streaming, et il fallait détecter quand un artefact commence et se termine pour l'extraire et l'afficher dans un panneau de prévisualisation séparé. De plus, chaque artefact devait avoir un historique de versions et la prévisualisation devait être sécurisée pour éviter l'exécution de code malveillant. Pour résoudre ce problème, j'ai créé un parser de streaming qui analyse les tokens au fur et à mesure de leur arrivée et détecte les balises spéciales qui délimitent les artefacts. J'ai implémenté un hook useArtifactOperations qui gère la création, la mise à jour et le versioning des artefacts avec un état immutable. Pour la prévisualisation sécurisée, j'ai utilisé une iframe sandboxée avec des politiques de sécurité strictes qui empêchent l'accès au DOM parent. J'ai également créé un hook useStreamingPerformance qui mesure les métriques de performance comme le time-to-first-token et les tokens par seconde, ce qui permet d'optimiser l'expérience utilisateur. Le résultat est une interface fluide où l'utilisateur voit le code se générer en temps réel tout en ayant une prévisualisation live du résultat qui se met à jour progressivement."
+### Système de Surveillance d'Examens - Gestion des conflits en temps réel
 
-**Plateforme Vidéo MTube - Architecture event-driven sur GCP**
+**Défi :** Éviter les conflits d'assignation simultanée des enseignants avec notifications temps réel.
 
-"Le défi principal de MTube était de concevoir une architecture capable de traiter des vidéos de manière asynchrone et scalable, tout en garantissant la fiabilité du pipeline même en cas d'échec d'un composant. L'upload d'une vidéo par un utilisateur devait déclencher automatiquement le transcodage sans bloquer l'interface, et le système devait pouvoir gérer des pics de charge importants. La complexité résidait dans la coordination entre les différents services cloud et la gestion des états intermédiaires des vidéos. Pour résoudre ce problème, j'ai conçu une architecture event-driven sur Google Cloud Platform. Lorsqu'un utilisateur uploade une vidéo, le frontend obtient une URL signée et uploade directement vers Cloud Storage, ce qui évite de surcharger le backend. L'upload déclenche automatiquement un message Pub/Sub qui est consommé par un service de traitement vidéo déployé sur Cloud Run. Ce service télécharge la vidéo brute, la transcode en 360p avec FFmpeg, uploade le résultat dans un bucket séparé, puis met à jour les métadonnées dans Firestore. J'ai implémenté une vérification d'idempotence pour éviter le traitement en double si un message est délivré plusieurs fois, ainsi qu'un système de retry automatique en cas d'échec. Le scale-to-zero de Cloud Run garantit des coûts optimisés car le service ne consomme des ressources que pendant le traitement effectif. Cette architecture permet de traiter des centaines de vidéos simultanément sans aucune intervention manuelle."
+**Solution :**
+- **Backend** : Validation @Transactional pour atomicité des opérations
+- **WebSocket** : STOMP pour alertes instantanées sur conflits
+- **Frontend** : Service de notifications avec reconnexion automatique et queues user-specific
+- **Résultat** : Zéro conflit en production, changements visibles instantanément
 
-**Pipeline CI/CD DevOps - Intégration de multiples outils**
+---
 
-"Le défi de ce projet était d'intégrer de nombreux outils différents dans un pipeline cohérent et fiable, incluant Jenkins pour l'orchestration, Docker pour la containerisation, SonarQube pour la qualité du code, Nexus pour le registry d'artefacts, Kubernetes pour le déploiement, et Prometheus avec Grafana pour le monitoring. Chaque outil a sa propre configuration et ses propres modes de défaillance, et le pipeline devait être robuste face aux erreurs transitoires comme les timeouts réseau ou les indisponibilités temporaires. Pour résoudre ce problème, j'ai adopté une approche de configuration as code où chaque étape du pipeline est définie dans un Jenkinsfile versionné avec le code source. J'ai implémenté des quality gates stricts qui bloquent le pipeline si la couverture de tests descend sous un certain seuil ou si SonarQube détecte des vulnérabilités critiques. Pour la résilience, j'ai configuré des mécanismes de retry avec backoff exponentiel pour les opérations réseau, et des health checks qui vérifient que chaque déploiement est réellement fonctionnel avant de marquer l'étape comme réussie. J'ai également mis en place un système de rollback automatique qui restaure la version précédente si les health checks échouent après un déploiement. Le monitoring avec Prometheus et Grafana permet de visualiser les métriques en temps réel et de configurer des alertes qui notifient l'équipe en cas de problème. Le résultat est un pipeline entièrement automatisé qui garantit que seul du code de qualité atteint la production."
+### Application Chat Mistral AI - Streaming temps réel avec système d'artefacts
 
-**Architecture AWS 3-Tier - Haute disponibilité multi-AZ**
+**Défi :** Générer du code en temps réel avec prévisualisation live pendant le streaming API.
 
-"Le défi de ce projet était de concevoir une architecture hautement disponible qui continue de fonctionner même en cas de panne d'une zone de disponibilité AWS entière, tout en maintenant des coûts raisonnables et des performances optimales. La complexité venait de la nécessité de répliquer les données et de distribuer le trafic de manière transparente pour les utilisateurs. Pour résoudre ce problème, j'ai déployé l'infrastructure sur plusieurs zones de disponibilité au sein d'une même région AWS. Au niveau de la couche de présentation, j'ai configuré CloudFront comme CDN pour distribuer le contenu statique globalement et Route 53 avec des health checks pour le failover DNS automatique. Au niveau applicatif, j'ai déployé les containers sur ECS avec des tâches réparties sur plusieurs AZ, derrière un Application Load Balancer qui effectue automatiquement le health checking et retire les instances défaillantes du pool. L'Auto Scaling ajuste dynamiquement le nombre d'instances en fonction de la charge. Au niveau données, j'ai configuré RDS en mode Multi-AZ avec réplication synchrone, ce qui garantit un failover automatique en cas de panne de l'instance principale. J'ai également utilisé S3 pour le stockage d'objets, qui réplique automatiquement les données sur plusieurs AZ. CloudWatch collecte les métriques et déclenche des alarmes en cas d'anomalie. Cette architecture garantit un SLA de haute disponibilité avec un temps de basculement inférieur à une minute en cas de défaillance d'une zone."
+**Solution :**
+- Parser de streaming pour détecter début/fin des artefacts token par token
+- Hook `useArtifactOperations` pour création, mise à jour, versioning
+- Iframe sandboxée pour prévisualisation sécurisée
+- Hook `useStreamingPerformance` pour métriques (time-to-first-token, tokens/sec)
+- **Résultat** : Interface fluide avec code généré et prévisualisation live progressive
+
+---
+
+### Plateforme Vidéo MTube - Architecture event-driven sur GCP
+
+**Défi :** Traitement vidéo asynchrone et scalable avec fiabilité en cas d'échec.
+
+**Solution :**
+- Upload direct vers Cloud Storage via URL signée
+- Message Pub/Sub déclenche Cloud Run pour transcodage FFmpeg
+- Vérification d'idempotence contre traitement en double
+- Retry automatique en cas d'échec
+- Scale-to-zero pour coûts optimisés
+- **Résultat** : Traitement de centaines de vidéos simultanément sans intervention
+
+---
+
+### Pipeline CI/CD DevOps - Intégration de multiples outils
+
+**Défi :** Intégrer Jenkins, Docker, SonarQube, Nexus, Kubernetes, Prometheus/Grafana de manière fiable.
+
+**Solution :**
+- Configuration as code (Jenkinsfile versionné)
+- Quality gates stricts (couverture tests, vulnérabilités)
+- Retry avec backoff exponentiel pour opérations réseau
+- Health checks post-déploiement
+- Rollback automatique si health checks échouent
+- **Résultat** : Pipeline automatisé garantissant code de qualité en production
+
+---
+
+### Architecture AWS 3-Tier - Haute disponibilité multi-AZ
+
+**Défi :** Architecture fonctionnelle même en cas de panne d'une zone de disponibilité AWS.
+
+**Solution :**
+- **Présentation** : CloudFront CDN + Route 53 avec health checks
+- **Application** : ECS multi-AZ + ALB avec Auto Scaling
+- **Données** : RDS Multi-AZ avec réplication synchrone + S3
+- CloudWatch pour métriques et alarmes
+- **Résultat** : SLA haute disponibilité, failover < 1 minute
 
 ---
 
 ## IX. Questions à Poser à CDS
 
-Voici les questions que je souhaiterais poser lors de l'entretien pour mieux comprendre l'environnement de travail et les attentes :
-
-"Quelles sont les technologies principales utilisées dans vos solutions CAD actuelles ?"
-
-"Comment l'équipe est-elle organisée ? Y a-t-il des spécialisations entre frontend et backend, ou les développeurs sont-ils plutôt polyvalents ?"
-
-"Quels sont les principaux défis techniques que vous rencontrez actuellement dans le développement de vos produits ?"
-
-"Comment se déroule l'onboarding pour un nouveau stagiaire ? Y a-t-il un programme de mentorat ?"
-
-"Quel type de projets serait confié à un stagiaire ? Aurais-je l'opportunité de travailler sur des fonctionnalités complètes de bout en bout ?"
-
-"Utilisez-vous Three.js ou une autre bibliothèque pour le rendu 3D dans vos applications ?"
-
-"Comment l'équipe équilibre-t-elle innovation et stabilité du produit ?"
-
-"Y a-t-il des opportunités de prolonger le stage ou d'être embauché après la période de stage ?"
+- "Quelles sont les technologies principales utilisées dans vos solutions CAD actuelles ?"
+- "Comment l'équipe est-elle organisée ? Spécialisations frontend/backend ou polyvalence ?"
+- "Quels sont les principaux défis techniques actuels ?"
+- "Comment se déroule l'onboarding pour un stagiaire ?"
+- "Quel type de projets serait confié à un stagiaire ?"
+- "Utilisez-vous Three.js ou une autre bibliothèque pour le rendu 3D ?"
+- "Y a-t-il des opportunités après le stage ?"
 
 ---
 
 ## X. Récapitulatif - Adéquation avec le Poste CDS
 
-Mon profil correspond aux exigences du poste sur plusieurs points clés. Concernant React et TypeScript, j'ai une expérience significative acquise chez Skillia sur la plateforme LMS, dans mon projet Mistral AI et chez OK Studios. Pour Node.js, j'ai développé des backends complets avec NestJS chez Skillia et Firebase Functions pour MTube. Bien que je n'aie pas encore travaillé directement avec Electron, mes bases solides en React et Node.js me permettront de m'adapter rapidement. Pour Three.js et la 3D, je suis motivé à apprendre et je possède déjà des compétences solides en algorithmique. En Python, mon rang Codeforces Specialist et ma certification Oracle attestent de ma maîtrise du langage. J'ai créé plusieurs webapps from scratch comme MTube, Mistral AI et le site OK Studios. Je suis certifié GitHub Actions et j'utilise Docker sur tous mes projets. J'ai de l'expérience en design d'interfaces avec Figma grâce à mon rôle de Media Manager au GDG. J'ai pratiqué Agile Scrum avec des sprints de deux semaines chez Skillia, et j'ai travaillé dans une équipe de plus de dix développeurs. Enfin, mon attention aux animations, micro-interactions et design systems témoigne de mon orientation créativité et UX. Ma capacité à gérer des projets de bout en bout, du design au déploiement, est un atout majeur pour contribuer aux solutions CDS.
+| Exigence CDS | Mon Expérience |
+|--------------|----------------|
+| React, TypeScript | Skillia (LMS), Mistral AI, OK Studios |
+| Node.js | NestJS (Skillia), Firebase Functions (MTube) |
+| Electron | Prêt à apprendre (bases React + Node.js) |
+| Three.js / 3D | Motivé, compétences algorithmiques solides |
+| Python | Codeforces Specialist, Oracle Certified |
+| Webapp from scratch | MTube, Mistral AI, OK Studios |
+| Git, GitHub, Docker | GitHub Actions certifié, Docker sur tous projets |
+| Figma | Media Manager GDG, design d'interfaces |
+| Équipe 10+ devs | Expérience Skillia, GDG on Campus |
+| Créativité / UX | Animations, micro-interactions, design systems |
 
 ---
 
 ## XI. Points Forts à Mettre en Avant
 
-Je suis un développeur Full-Stack polyvalent maîtrisant React, Node.js, TypeScript et Python. J'ai créé plusieurs projets from scratch comme MTube, l'application Mistral AI et la plateforme Skillia, ce qui démontre ma capacité à gérer des projets de bout en bout. Mes certifications cloud incluent AWS Developer Associate, AWS Solutions Architect Associate et Azure Fundamentals. J'ai une expérience concrète de la méthodologie Agile Scrum acquise chez Skillia. Mon orientation créativité UX se manifeste dans mes réalisations avec des animations, du design et des micro-interactions soignées. Ma capacité d'adaptation me permet d'apprendre rapidement de nouvelles technologies comme je l'ai démontré à plusieurs reprises. J'ai l'expérience du travail d'équipe dans un environnement international et multiculturel. Enfin, mon rang Specialist sur Codeforces atteste de mes compétences en algorithmique, essentielles pour la R&D sur les algorithmes 3D.
+- **Full-Stack polyvalent** : React, Node.js, TypeScript, Python
+- **Projets from scratch** : MTube, Mistral AI, Skillia
+- **Certifications cloud** : AWS Developer, Solutions Architect, Azure Fundamentals
+- **Créativité UX** : Animations, design, micro-interactions
+- **Adaptabilité** : Apprentissage rapide de nouvelles technologies
+- **Algorithmique** : Codeforces Specialist
 
 ---
 
